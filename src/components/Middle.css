@@ -1,0 +1,209 @@
+.middleBar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.FirstInfo {
+  /* flex: 4; */
+  height: 40vh;
+  /* height: 40%; */
+  /* background-color: #310041; */
+  background-image: linear-gradient(#760067, #310041);
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.ItemCards {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-right: 5px;
+  transition: 0.5s;
+  /* flex: 6; */
+  height: 50vh;
+  /* height: 60%; */
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin-top: 15px;
+  background-color: #1a162c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.middleImage {
+  height: 310px;
+  /* padding-left: 20px; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Oswald:wght@700&family=Share+Tech+Mono&display=swap");
+
+.typewriter h1 {
+  font-family: "Share Tech Mono", monospace;
+  /* word-spacing: 5px; */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  color: white;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.typewriter2 h2 {
+    
+    font-family: "Share Tech Mono", monospace;
+    /* word-spacing: 5px; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.0em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em; /* Adjust as needed */
+    color: white;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.myName {
+  font-size: 20px;
+  padding: 60px 37px 30px 37px;
+}
+.det {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+::-webkit-scrollbar {
+  background: rgb(104, 104, 104);
+  width: 0px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+}
+
+.ele-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2a263f;
+  margin: 10px 40px 10px 40px;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.ele-img {
+  height: 180px;
+  border-radius: 10px;
+  width: 225px;
+}
+.ele-name {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff6868;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+}
+.title {
+  font-family: "Share Tech Mono", monospace;
+  /* width: 150px; */
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  font-size: 30px;
+  /* margin-left: 150px;
+    margin-right: 150px; */
+  font-weight: bold;
+  color: #ff6868;
+  /* background-color: #ff6868; */
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px 10px 5px 10px;
+}
+
+.mainTitle {
+  font-family: "Share Tech Mono", monospace;
+
+  font-size: 40px;
+  font-weight: bold;
+  color: #838080;
+
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px 10px 5px 10px;
+}
+.ele-details {
+  color: white;
+}
+
+.ele-img2{
+    font-size: 70px;
+    color: #c9c9c9;
+}
+
+
+
+@media screen and (max-width: 788px) {
+    .middleImage {
+       display: none;
+        /* padding-left: 20px; */
+      }
+      .ele-col{
+          width: 83%;
+      }
+      .det{
+          font-size: 15px;
+      }
+
+  }
+
+  .abc{
+      padding: 10px;
+      
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+
+.ele-col:hover{
+    background-color: rgb(82, 42, 109);
+}
+
+.ele-col:hover .ele-img2 { color: #ffffff; }
+
+.btn:hover{
+    background-color: #fdcab5;
+}

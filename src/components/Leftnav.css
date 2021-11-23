@@ -1,0 +1,55 @@
+.LeftnavBar{
+    height: 100vh;
+    /* height: 100%; */
+    /* height: 70%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: fixed; */
+    margin-right: 15px;
+    background-color: #1a162c;
+    /* border-radius: 20px; */
+}
+.Icon{
+    color: rgb(202, 202, 202);
+    font-size: 27px;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+.Icon:hover{
+    color:rgb(255, 104, 104) ;
+}
+.myIcon{
+    font-size: 75px;
+    color: rgb(255, 104, 104);
+}
+.homeIcon{
+    color: rgb(202, 202, 202);
+}
+.exitIcon{
+    /* position: absolute;
+    /* bottom: 0; */
+    margin-bottom: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 788px) {
+    .LeftnavBar{
+      flex-direction: row;
+      height: 120px;
+      margin-right: 0px;
+      
+    }
+    .Icon{
+        color: rgb(202, 202, 202);
+        font-size: 15px;
+        margin: 10px 10px 10px 10px;
+        transition: 0.2s;
+    }
+    .exitIcon{
+        display: none;
+    }
+  }

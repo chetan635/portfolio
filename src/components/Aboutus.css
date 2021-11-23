@@ -1,0 +1,92 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Oswald:wght@700&family=Share+Tech+Mono&display=swap");
+.aboutus{
+    height: 100%;
+    display: flex;
+  
+    font-family: "Share Tech Mono", monospace;
+    background-color: #1a162c;
+    flex-direction: column;
+    color: rgb(184, 184, 184);
+    border-radius: 15px;
+    /* overflow-y: scroll; */
+}
+
+.about{
+    /* display: flex; */
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    height: 92vh;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img{
+    height: 375px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.details2{
+    /* background-color: thistle; */
+    margin-top: 20px;
+}
+.school{
+    padding: 7px 20px 7px 20px;
+}
+.Collage{
+    padding: 7px 20px 7px 20px;
+}
+.about-title{
+    color: #ff6868;
+    font-size: 25px;
+}
+
+.innerItems{
+    margin: 4px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 20px;
+    background-color: #3f4257;
+}
+.innerItems2{
+    margin: 4px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+    background-color: #3f4257;
+}
+
+.real{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerIcon{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footerIcon:hover{
+    color: #ff6868;
+}
+.text:hover{
+    color: #ff6868;
+}
+.infocol{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction:row;
+    border-radius: 10px;
+    background-color: #15121f;
+}

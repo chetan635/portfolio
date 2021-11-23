@@ -1,25 +1,67 @@
-import logo from './logo.svg';
 import './App.css';
+import Leftnav from './components/Leftnav';
+import Middle from './components/Middle';
+import Rightnav from './components/Rightnav';
+import Aboutus from './components/Aboutus';
+import './components/Leftnav.css';
+import { useState } from 'react';
 
 function App() {
+  const [x, setx] = useState(true)
+
+  const handleX = (p)=>{
+    if(p==true){
+      document.getElementById("homeIcon").style.color = "rgb(255, 104, 104)"  
+      document.getElementById("aboutIcon").style.color = "rgb(202, 202, 202)"
+    }
+    else{
+      document.getElementById("aboutIcon").style.color = "rgb(255, 104, 104)"  
+      document.getElementById("homeIcon").style.color = "rgb(202, 202, 202)"
+    }
+    setx(p)
+  }
+ if(x){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="mainRow row">
+      <div className="col-md-1 left itemx">
+        <Leftnav x = {handleX}/>
+      </div>
+      <div className="col-md-8 middle itemx">
+        <Middle/>
+      </div>
+      {/* <div className="col-md-8 middle itemx">
+        <Aboutus/>
+      </div> */}
+      <div className="col-md-3 right itemx">
+        <Rightnav x = {handleX}/>
+      </div>
     </div>
+   
+
   );
+ }
+ else{
+  return (
+    
+    <div className="mainRow row">
+      <div className="col-md-1 left itemx">
+        <Leftnav x = {handleX}/>
+      </div>
+      {/* <div className="col-md-8 middle itemx">
+        <Middle/>
+      </div> */}
+      <div className="col-md-8 middle itemx">
+        <Aboutus/>
+      </div>
+      <div className="col-md-3 right itemx">
+        <Rightnav x = {handleX}/>
+      </div>
+    </div>
+   
+
+  );
+ }
 }
 
 export default App;

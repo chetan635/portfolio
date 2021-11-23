@@ -1,0 +1,54 @@
+.Navbar{
+    width: 100%;
+    background-color: #121128;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.NavIcons{
+    color: rgb(201, 201, 201);
+    font-size: 32px;
+    margin-left: 17px;
+    margin-right: 17px;
+    transition: 0.3s;
+}
+
+.linkdin:hover{
+    color: #0a66c2;
+    /* font-size: 33px; */
+    /* background-color: white; */
+    border-bottom: 1px solid #0a66c2;
+}
+.github:hover{
+    color: rgb(204, 0, 187);
+    /* text-decoration: underline 2px; */
+    border-bottom: 1px solid rgb(204, 0, 187);
+}
+.twitter:hover{
+    color: #1da1f2;
+    border-bottom: 1px solid #1da1f2;
+}
+.instagram:hover{
+    color: #c02d8a;
+    border-bottom: 1px solid #c02d8a;
+}
+.hackerrank:hover{
+    color: #32c766;
+    border-bottom: 1px solid #32c766;
+}
+.codechef:hover{
+    color: #cec1a3;
+    border-bottom: 1px solid #cec1a3;
+}
+
+
+
+@media screen and (max-width: 788px) {
+   .Navbar{
+       position: fixed;
+       bottom: 0;
+   }
+  }
