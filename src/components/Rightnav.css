@@ -16,7 +16,7 @@
 .details{
     border-radius: 15px;
     /* flex: 5; */
-    height: 45%;
+    height: 55%;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -195,6 +195,22 @@
     }
     .info{
         display: none;
+    }
+    .Items{
+        font-size: 30px;
+    }
+    .indvisual1{
+        padding: 7px;
+    }
+    .indvisual2{
+        padding: 7px;
+    }
+    .indvisual3{
+        padding: 7px;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: row;
     }
   }
 

@@ -13,6 +13,7 @@
   margin-top: 10px;
   border-radius: 10px;
   margin-right: 5px;
+  transition: 1s;
 }
 
 .ItemCards {
@@ -207,3 +208,18 @@
 .btn:hover{
     background-color: #fdcab5;
 }
+
+#up, #down{
+    display: flex;
+    padding:0px 10px 0px 10px;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 0.5s;
+    /* position: fixed; */
+}
+/* h3{
+    transition: 1s;
+}
+h3:hover{
+    color: tomato;
+} */

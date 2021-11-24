@@ -41,7 +41,7 @@ export default function Leftnav(props) {
             <a target="_blank" href="https://www.linkedin.com/in/chetan-chinchulkar-a14021213/"><div className="contactIcon Icon"><span class="iconify" data-icon="fontisto:at"></span></div></a>
             <a target="_blank" href="https://drive.google.com/file/d/1t81vFy5U5J_urESMcbJ22RWZtm3FG57t/view?usp=sharing"><div className="resume Icon"><span class="iconify" data-icon="bx:bx-barcode-reader" data-flip="horizontal"></span></div></a>
            <div onClick={handleCert} className="project Icon"><span class="iconify" data-icon="tabler:certificate"></span></div>
-            <div onClick={handleIntern} className="internship Icon"><span class="iconify" data-icon="fluent:contact-card-group-16-filled"></span></div>
+            <div onClick={handleIntern} className="internship Icon"><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span></div>
 
             
             

@@ -14,9 +14,12 @@ export default function Navbar() {
             <span class="iconify" data-icon="akar-icons:github-fill"></span>
             </div>
             </a>
-            <div className="twitter NavIcons">
+            
+           <a target="_blank" href="https://twitter.com/chetan_4788">
+           <div className="twitter NavIcons">
             <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
             </div>
+           </a>
             
            <a href="https://www.instagram.com/chetan_4788/" target="_blank">
            <div className="instagram NavIcons">

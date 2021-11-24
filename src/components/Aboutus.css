@@ -68,7 +68,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footerIcon{
@@ -76,11 +76,17 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.footerIcon:hover{
+ .footerIcon:hover{
     color: #ff6868;
 }
+/*
 .text:hover{
     color: #ff6868;
+} */
+.per-det{
+    background-color: #212035;
+    margin: 10px;
+    border-radius: 15px;
 }
 .infocol{
     display: flex;
@@ -89,4 +95,25 @@
     flex-direction:row;
     border-radius: 10px;
     background-color: #15121f;
+}
+.profile-img3{
+    height: 240px;
+}
+
+.infocol:hover{
+    background-color: #403250;
+}
+
+.about-info{
+    background-color: #212035;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.current-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: rgb(207, 207, 207);
 }
