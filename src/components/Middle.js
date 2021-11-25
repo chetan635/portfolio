@@ -5,6 +5,7 @@ import cr1 from './cr1.PNG'
 import cr2 from './cr2.PNG'
 import cr3 from './cr3.PNG'
 import di from './di.PNG'
+import Typed from 'typed.js';
 // import final2 from './final.png'
 import Navbar from './Navbar'
 export default function middle() {
@@ -141,6 +142,7 @@ export default function middle() {
         document.getElementById("middle1").style.height = "90vh"
         document.getElementById("up").style.display = "none"
         document.getElementById("down").style.display = "flex"
+        
 
     }
     const handledown = ()=>{
@@ -149,7 +151,22 @@ export default function middle() {
         document.getElementById("up").style.display = "flex"
         document.getElementById("down").style.display = "none"
 
+
     }
+    const handleTyping = ()=>{
+        var options = {
+            strings: ["Chetan Chinchulkar","Tech Enthusiast","a CS Student !"],
+            typeSpeed: 100,
+            backSpeed:100,
+            loop:true
+    
+          };
+          
+          var typed = new Typed('.typed1', options);
+    }
+
+
+   
 
 
     return (
@@ -158,11 +175,11 @@ export default function middle() {
             <div id="middle2" className="FirstInfo col-md-12">
                 <div className="row">
                     <div className="col-md-6">
-                        <img className="middleImage" src={final} alt="" />
+                        <img onLoad={handleTyping} className="middleImage" src={final} alt="" />
                     </div>
                     <div className="col-md-6">
-                        <div class="typewriter myName">
-                            <h1>Hey,Chetan here!</h1>
+                        <div class="typed">
+                            <div>I'm <span className="typed1"></span></div>
                         </div>
                         <div className="det">
                             Enthusiastic Leaner and Coder,computer Science student,Web developer,Always ready for new challenges ☮︎
@@ -177,6 +194,7 @@ export default function middle() {
                     <h2 id="abc"><span class="iconify" data-icon="eos-icons:project"></span> MyProjects</h2>
                    
                 </div>
+                
                 <div id="Django" className="title">#Django</div>
                 <div className="row">
 
@@ -190,6 +208,15 @@ export default function middle() {
                     })}
 
                 </div>
+                {/* <div id="Flutter" className="title">#Flutter</div>
+                <div className="ele-col4" style={{display:"none"}}>
+                <div className="ele-img2">Flutter</div>
+                <div className="ele-img2">Flutter</div>
+                <div className="ele-img2">Flutter</div>
+                <div className="ele-img2">Flutter</div>
+                <div className="ele-img2">Flutter</div>
+                
+                </div> */}
                 <div id="Flutter" className="title">#Flutter</div>
                 <div className="row">
 

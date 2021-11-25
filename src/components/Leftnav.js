@@ -9,6 +9,14 @@ export default function Leftnav(props) {
         props.x(true)
         
     }
+    const handleAboutlink = ()=>{
+        props.x(false)
+        setTimeout(() => {
+            document.querySelector('.per-det').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }, 30);
+    }
 
     const handleCert = ()=>{
         props.x(true)
@@ -38,7 +46,7 @@ export default function Leftnav(props) {
             <div className="myIcon "><span class="iconify" data-icon="mdi:alpha-c-box"></span></div>
             <div onClick={handleHome} style={{color:"#ff6868"}} id="homeIcon" className="homeIcon Icon"><span class="iconify" data-icon="icon-park-outline:all-application"></span></div>
             <div onClick={handleAbout} id="aboutIcon" className="aboutIcon Icon"><span class="iconify" data-icon="simple-icons:informatica"></span></div>
-            <a target="_blank" href="https://www.linkedin.com/in/chetan-chinchulkar-a14021213/"><div className="contactIcon Icon"><span class="iconify" data-icon="fontisto:at"></span></div></a>
+            <div onClick={handleAboutlink} className="contactIcon Icon"><span class="iconify" data-icon="fontisto:at"></span></div>
             <a target="_blank" href="https://drive.google.com/file/d/1t81vFy5U5J_urESMcbJ22RWZtm3FG57t/view?usp=sharing"><div className="resume Icon"><span class="iconify" data-icon="bx:bx-barcode-reader" data-flip="horizontal"></span></div></a>
            <div onClick={handleCert} className="project Icon"><span class="iconify" data-icon="tabler:certificate"></span></div>
             <div onClick={handleIntern} className="internship Icon"><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span></div>

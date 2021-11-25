@@ -130,6 +130,23 @@ box-shadow: 4px 4px 30px #000000;
 box-shadow: 4px 4px 30px #000000;
 }
 
+.ele-col4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    background-color: #2a263f;
+    margin: 10px 40px 10px 40px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Share Tech Mono", monospace;
+    -moz-box-shadow: 4px 4px 30px #000000;
+  -webkit-box-shadow: 4px 4px 30px #000000;
+  box-shadow: 4px 4px 30px #000000;
+  }
+
 .ele-img {
   height: 180px;
   border-radius: 10px;
@@ -193,6 +210,12 @@ box-shadow: 4px 4px 30px #000000;
       .det{
           font-size: 15px;
       }
+      .typed1{
+        padding: 0px 20px 0px 20px;
+      }
+      .typed{
+       padding: 10px;
+      }
 
   }
 
@@ -233,3 +256,14 @@ box-shadow: 4px 4px 30px #000000;
 h3:hover{
     color: tomato;
 } */
+
+.typed{
+    color: white;
+    padding: 40px 20px 40px 20px;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 37px;
+}
+.typed1{
+    color: #ffd5af;
+    font-weight: bolder;
+}

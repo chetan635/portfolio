@@ -6,6 +6,7 @@ import Aboutus from './components/Aboutus';
 import './components/Leftnav.css';
 import { useState } from 'react';
 
+
 function App() {
   const [x, setx] = useState(true)
 
@@ -36,6 +37,7 @@ function App() {
       <div className="col-md-3 right itemx">
         <Rightnav x = {handleX}/>
       </div>
+   
     </div>
    
 
