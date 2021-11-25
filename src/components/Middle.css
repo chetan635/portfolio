@@ -14,6 +14,9 @@
   border-radius: 10px;
   margin-right: 5px;
   transition: 1s;
+  -moz-box-shadow: 4px 4px 30px #000000;
+-webkit-box-shadow: 4px 4px 30px #000000;
+box-shadow: 4px 4px 30px #000000;
 }
 
 .ItemCards {
@@ -122,6 +125,9 @@
   padding: 10px;
   border-radius: 15px;
   font-family: "Share Tech Mono", monospace;
+  -moz-box-shadow: 4px 4px 30px #000000;
+-webkit-box-shadow: 4px 4px 30px #000000;
+box-shadow: 4px 4px 30px #000000;
 }
 
 .ele-img {
@@ -211,11 +217,15 @@
 
 #up, #down{
     display: flex;
+    margin-right: 25px;
     padding:0px 10px 0px 10px;
     align-items: center;
     justify-content: flex-end;
     transition: 0.5s;
     /* position: fixed; */
+}
+.xa{
+    position: fixed;
 }
 /* h3{
     transition: 1s;

@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+  
 }
 .details{
     border-radius: 15px;
@@ -23,6 +24,11 @@
     align-items: center;
     justify-content: center;
     background-color: #1a162c;
+    -moz-box-shadow: 4px 4px 30px #000000;
+    -webkit-box-shadow: 4px 4px 30px #000000;
+    box-shadow: 4px 4px 30px #000000;
+    
+    
 }
 .skills{
     border-top-left-radius: 15px;
@@ -39,6 +45,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    -moz-box-shadow: 4px 4px 30px #000000;
+-webkit-box-shadow: 4px 4px 30px #000000;
+box-shadow: 4px 4px 30px #000000;
 }
 .mode{
     font-size: 32px;
@@ -120,6 +129,7 @@
     font-family: 'Share Tech Mono', monospace;
     padding: 10px;
     color: white;
+    font-size: 18px;
 }
 .django{
     display: flex;

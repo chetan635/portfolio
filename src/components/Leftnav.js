@@ -16,7 +16,7 @@ export default function Leftnav(props) {
             document.querySelector('#cert').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
    
     }
      const handleIntern = ()=>{
@@ -25,7 +25,7 @@ export default function Leftnav(props) {
             document.querySelector('#intern').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
         
      }
     const handleClose = ()=>{

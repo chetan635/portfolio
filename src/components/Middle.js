@@ -171,8 +171,8 @@ export default function middle() {
                 </div>
             </div>
             <div id="middle1" className="ItemCards">
-                <div  id="up" className="up"><h3 onClick={handleUp} style={{color:"white"}}><span class="iconify" data-icon="akar-icons:circle-chevron-up-fill"></span></h3> </div>
-                <div  style={{display:"none"}} id="down" className="down"><h3 onClick={handledown} style={{color:"white"}}><span class="iconify" data-icon="akar-icons:circle-chevron-up-fill" data-flip="vertical"></span></h3> </div>
+                <div  id="up" className="up"><h3 onClick={handleUp} style={{color:"white"}}><span class="iconify xa" data-icon="akar-icons:circle-chevron-up-fill"></span></h3> </div>
+                <div  style={{display:"none"}} id="down" className="down"><h3 onClick={handledown} style={{color:"white"}}><span class="iconify xa" data-icon="akar-icons:circle-chevron-up-fill" data-flip="vertical"></span></h3> </div>
                 <div className=" abc typewriter2 up ">
                     <h2 id="abc"><span class="iconify" data-icon="eos-icons:project"></span> MyProjects</h2>
                    

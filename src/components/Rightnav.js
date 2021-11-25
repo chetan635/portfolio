@@ -53,7 +53,7 @@ export default function Rightnav(props) {
             document.querySelector('#Django').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
     }
     const handleFlutter = ()=>{
         props.x(true)
@@ -61,7 +61,7 @@ export default function Rightnav(props) {
             document.querySelector('#Flutter').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
     }
     const handleReactJs = ()=>{
         props.x(true)
@@ -69,7 +69,7 @@ export default function Rightnav(props) {
             document.querySelector('#ReactJs').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
     }
     const handleNodeJS = ()=>{
         props.x(true)
@@ -77,7 +77,7 @@ export default function Rightnav(props) {
             document.querySelector('#NodeJs').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
     }
     const handlecr = ()=>{
         props.x(true)
@@ -85,7 +85,7 @@ export default function Rightnav(props) {
             document.querySelector('#cr').scrollIntoView({ 
                 behavior: 'smooth' 
             });
-        }, 10);
+        }, 30);
     }
 
 

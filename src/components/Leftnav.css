@@ -9,6 +9,9 @@
     margin-right: 15px;
     background-color: #1a162c;
     /* border-radius: 20px; */
+    -moz-box-shadow: 4px 4px 8px #000000;
+-webkit-box-shadow: 4px 4px 8px #000000;
+box-shadow: 4px 4px 8px #000000;
 }
 .Icon{
     color: rgb(202, 202, 202);
