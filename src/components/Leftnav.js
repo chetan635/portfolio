@@ -41,6 +41,9 @@ export default function Leftnav(props) {
         window.open()
         window.close()
     }
+    const handleBlog = ()=>{
+        props.handleBlog(true)
+    }
     return (
         <div id="left1" className="LeftnavBar">
             <div className="myIcon "><span class="iconify" data-icon="mdi:alpha-c-box"></span></div>
@@ -48,8 +51,10 @@ export default function Leftnav(props) {
             <div onClick={handleAbout} id="aboutIcon" className="aboutIcon Icon"><span class="iconify" data-icon="simple-icons:informatica"></span></div>
             <div onClick={handleAboutlink} className="contactIcon Icon"><span class="iconify" data-icon="fontisto:at"></span></div>
             <a target="_blank" href="https://drive.google.com/file/d/1t81vFy5U5J_urESMcbJ22RWZtm3FG57t/view?usp=sharing"><div className="resume Icon"><span class="iconify" data-icon="bx:bx-barcode-reader" data-flip="horizontal"></span></div></a>
-           <div onClick={handleCert} className="project Icon"><span class="iconify" data-icon="tabler:certificate"></span></div>
+           {/* <div onClick={handleCert} className="project Icon"><span class="iconify" data-icon="tabler:certificate"></span></div> */}
             <div onClick={handleIntern} className="internship Icon"><span class="iconify" data-icon="ant-design:safety-certificate-filled"></span></div>
+            <div onClick={handleBlog} className="internship Icon"><span class="iconify" style={{color:"#ff6868",fontSize:"40px"}} data-icon="mdi:alpha-b-box"></span></div>
+            
 
             
             

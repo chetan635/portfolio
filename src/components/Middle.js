@@ -4,9 +4,9 @@ import final from './Final2.png'
 import cr1 from './cr1.PNG'
 import cr2 from './cr2.PNG'
 import cr3 from './cr3.PNG'
-import di from './di.PNG'
+import di from './di.png'
 import Typed from 'typed.js';
-// import final2 from './final.png'
+// import final2 from './final. png'
 import Navbar from './Navbar'
 export default function middle() {
 
